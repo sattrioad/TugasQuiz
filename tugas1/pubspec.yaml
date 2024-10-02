@@ -1,0 +1,41 @@
+name: tugas1
+description: A new Flutter project.
+
+# Specify the URL where your package will be published.
+# If you do not want to publish the project to pub.dev, keep it as "none".
+publish_to: none
+
+# Version of your app (major.minor.patch+build).
+version: 1.0.0+1
+
+# Set the minimum Dart SDK and Flutter SDK versions for your project.
+environment:
+  sdk: ">=3.5.1 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # You can replace this with the latest version if available.
+  url_launcher: ^6.0.12
+
+  # Default icons for Cupertino-style (iOS) apps.
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Linter rules for Dart and Flutter projects.
+  flutter_lints: ^4.0.0
+
+# Flutter section for additional project settings.
+flutter:
+  # Specify your asset files such as images, fonts, etc.
+  assets:
+    - assets/images/logo1.png
+    - assets/images/iklan1.png
+    - assets/images/produk1.png
+    - assets/images/produk2.jpg
+    - assets/images/produk3.jpg
+    - assets/images/produk4.jpg
